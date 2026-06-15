@@ -1,4 +1,4 @@
-# Playwright Login Test
+# Hotel Planisphere QA Portfolio
 
 ## Overview
 
