@@ -12,9 +12,9 @@ test('正常ログイン(一般会員)', async ({ page }) => {
   await page.locator('#login-button').click();
 
   await expect(page).toHaveURL(/mypage/);
-　await expect(page.getByText('松本さくら')).toBeVisible();
+  await expect(page.getByText('松本さくら')).toBeVisible();
 
-　await page.getByRole('button', { name: 'ログアウト' }).click();
+  await page.getByRole('button', { name: 'ログアウト' }).click();
 });
 
 // プレミアム会員の情報でPC版ログイン
@@ -29,9 +29,9 @@ test('正常ログイン(プレミアム会員)', async ({ page }) => {
   await page.locator('#login-button').click();
 
   await expect(page).toHaveURL(/mypage/);
-　await expect(page.getByText('山田一郎')).toBeVisible();
+  await expect(page.getByText('山田一郎')).toBeVisible();
 
-　await page.getByRole('button', { name: 'ログアウト' }).click();
+  await page.getByRole('button', { name: 'ログアウト' }).click();
 });
 
 // メールアドレス不備でPC版ログイン
