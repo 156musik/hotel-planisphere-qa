@@ -71,16 +71,19 @@ npx playwright show-report
 ```text
 .github/
 └── workflows/
-    └── playwright.yml       # CI設定
+    └── playwright.yml              # CI設定
 
 docs/
 └── login/
-    ├── test-points.csv      # テスト観点
-    └── test-cases.csv       # テストケース
+    ├── test_perspectives_login.csv # テスト観点
+    ├── test_cases_login.csv        # テストケース
+    ├── login-analysis.md           # ナビゲーション仕様調査
+    ├── plan-display-analysis.md    # プラン表示権限調査
+    └── design-process.md           # テスト設計プロセス
 
 tests/
 └── login/
-    └── test-login.spec.ts   # ログインテスト
+    └── test-login.spec.ts          # ログインテスト
 
 playwright.config.ts
 ```
