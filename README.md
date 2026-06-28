@@ -103,7 +103,8 @@ playwright.config.ts
 `main` ブランチへの push および pull request をトリガーに自動実行されます。
 
 * 実行環境: Ubuntu（ubuntu-latest）
-* 対象ブラウザ: playwright.config.ts の設定に準拠
+* 対象ブラウザ: playwright.config.ts の
+設定に準拠
 * テスト結果レポートは Artifacts として 30 日間保存
 
 ワークフロー定義: `.github/workflows/playwright.yml`
