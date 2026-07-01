@@ -1,5 +1,11 @@
 # テスト観点レビュー — ログイン画面
 
+## Review Information
+
+- Skill Version: v1.1
+- Review Date: 2026-07-01
+- Reviewer: Claude Code (test-points-review)
+
 対象ファイル: `docs/login/test-points-login.csv`
 レビュー日: 2026-07-01
 参照ドキュメント: `docs/login/research/login-analysis.md` / `docs/common/research/research-header-footer.md` / `tests/login/test-login.spec.ts`
