@@ -6,9 +6,19 @@
 - Review Date: 2026-07-13（初版: 2026-07-01）
 - Reviewer: Claude Code (test-points-review)
 
-対象ファイル: `docs/login/test-points-login.csv`
-参照ドキュメント: `docs/login/research/login-analysis.md` / `docs/common/research/research-header-footer.md` / `tests/login/test-login.spec.ts`
-参照ソースコード: `hotelplanisphere_clone/src/login.js` / `src/lib/session.js` / `src/lib/validation.js` / `hotelplanisphere_clone/ja/login.html`
+対象ファイル:
+- `docs/login/test-points-login.csv`
+
+参照ドキュメント:
+- `docs/login/research/login-analysis.md`
+- `docs/common/research/research-header-footer.md`
+- `tests/login/test-login.spec.ts`
+
+参照ソースコード:
+- `hotelplanisphere_clone/src/login.js`
+- `hotelplanisphere_clone/src/lib/session.js`
+- `hotelplanisphere_clone/src/lib/validation.js`
+- `hotelplanisphere_clone/ja/login.html`
 
 ---
 
